@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors        = ["Tangerine Cat"]
   s.email          = ["kaineer@gmail.com"]
 
-  s.summary        = "Fresh jquery"
+  s.summary        = "jQuery, fetched from cdnjs.com and packed into asset pipe"
   s.description    = ""
 
   s.files          =
