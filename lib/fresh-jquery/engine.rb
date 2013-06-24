@@ -3,7 +3,7 @@ module FreshJquery
     # Block to add paths
     add_paths_block = lambda { |app|
       app.config.assets.paths <<
-        File.expand_path("../../vendor/assets/javascripts", __FILE__)
+        File.expand_path("../../../vendor/assets/javascripts", __FILE__)
     }
 
     # Initializer
