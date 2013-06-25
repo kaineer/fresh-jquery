@@ -17,8 +17,7 @@ Use it with rails
 
 Use it with sinatra
 -------------------
-1. `gem 'fresh-jquery'` in your `Gemfile`, yep
-2. `Gemfile` in your sinatra project:
+1. `Gemfile` in your sinatra project:
   ```ruby
   source "https://rubygems.org"
 
@@ -29,7 +28,7 @@ Use it with sinatra
   gem "fresh-jquery" # The gem you're trying to use
   ```
 
-3. In your sinatra application:
+2. In your sinatra application:
   ```ruby
   Bundler.require
 
@@ -43,4 +42,4 @@ Use it with sinatra
   end
   ```
   
-4. Run application and have `/assets/jquery.js`!
+3. Run application and have `/assets/jquery.js`!
