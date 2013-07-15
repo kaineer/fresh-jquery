@@ -4,7 +4,7 @@ $:.unshift(lib) unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name           = "fresh-jquery"
-  s.version        = "2.0.2.1"
+  s.version        = "2.0.3.1"
   s.platform       = Gem::Platform::RUBY
   s.authors        = ["Tangerine Cat"]
   s.email          = ["kaineer@gmail.com"]
